@@ -9,5 +9,5 @@ class StudyProgramAccreditations extends Model
 {
     use HasFactory;
     // protected $table = 'study_program_accreditations';
-    protected $fillable = ['study_program', 'degree', 'accreditation', 'decree', 'decree_url'];
+    protected $fillable = ['study_program', 'faculty', 'degree', 'accreditation', 'decree', 'decree_url'];
 }

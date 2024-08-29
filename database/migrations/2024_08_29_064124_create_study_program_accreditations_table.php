@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('study_program_accreditations', function (Blueprint $table) {
             $table->id();
             $table->string('study_program');
+            $table->string('faculty');
             $table->string('degree');
             $table->string('accreditation');
             $table->string('decree');
