@@ -18,7 +18,7 @@ class AccreditationSeeder extends Seeder
         $faker = Faker::create();
         $faculties = array(
             'Fakultas Kedokteran',
-            'Fakutas Hukum',
+            'Fakultas Hukum',
             'Fakultas Pertanian',
             'Fakultas Teknik',
             'Fakultas Ekonomi dan Bisnis',
@@ -36,9 +36,10 @@ class AccreditationSeeder extends Seeder
             'Fakultas Vokasi',
         );
         $degrees = array(
+            'Diploma',
             'Sarjana',
-            'Magister',
-            'Doctor',
+            'Master',
+            'Doktoral',
         );
         $accreditations = array(
             'Unggul',
